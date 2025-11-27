@@ -1,0 +1,28 @@
+# PlaceMen-T - Система мониторинга посещения офиса
+
+## Описание проекта
+Панель мониторинга и контроля посещения офиса для учета сотрудников. 
+Система собирает и анализирует информацию о присутствующих сотрудниках в реальном времени.
+
+## Назначение модулей
+
+### EmployeeManager (`app.js`)
+- **Назначение**: Управление базой данных сотрудников
+- **Функции**: Добавление/удаление сотрудников, ведение учета
+
+### AttendanceTracker (`app.js`)  
+- **Назначение**: Учет и анализ посещаемости
+- **Функции**: Отметка присутствия, генерация отчетов
+
+### Интерфейс (`main_page.html`, `style.css`)
+- **Назначение**: Взаимодействие с пользователем
+- **Функции**: Визуализация данных, управление системой
+
+## UML Диаграмма
+
+![UML структура проекта](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=%D1%84%D1%81%D0%B1%202%20%D0%B2%D0%B0%D1%80%203.drawio.png&dark=auto#R%3Cmxfile%3E%3Cdiagram%20name%3D%22%D0%A1%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%20%E2%80%94%201%22%20id%3D%22woN1VsWde-8OWEKej-Fk%22%3E7Vtbd9o4EP41nJM8sMeWMZdHbml3293Nabq9PPUILMAbY7m2gKS%2Ffkc3I1%2BIwUDTZElOjD2WxtbMp9E3I9JwhsuHNzGOFn9SjwQNZHkPDWfUQMhutxB8cMmjlLRaPSmYx76nGm0Fd%2F4PooSWkq58jySZhozSgPlRVjilYUimLCPDcUw32WYzGmSfGuE5KQjupjgoSj%2F7HltIaRd1tvK3xJ8v9JPtthrfEuvGaiTJAnt0Y4icccMZxpQyebZ8GJKAG0%2FbRfa72XE3fbGYhGyfDotvd8Hf395hZDnr6Pevn1C%2F1W86VlGN0pywR22EwA%2FhbJCwmN6nZrBBMvODYEgDGsN1SEUjHPjzEC4DMgN9gzWJmQ%2Fm7Cvx0ve8QCiL8NQP5x9pBNKmvZW8Fx1HzlbyQdmXi2LKMMMT8WYWXAd4QoJbmvjMp1x%2FLNsOIuqHTPjeHTTckZDEbEhDGAT2xVAJTtiGJCwdmR6JHy5I7HO5h5MF8dRgPT8GhMnHJHTFjTCQplrjYKVMpQQwavJgmFO55A2hS8LiR2iyMFCDesoNGwNiUqKUoFZbXqtp1FUdsIL3PFW8RQCcKBAcAAh3HzwAlCN%2BuloG7%2F0ZUfCIwGjwEoSbMFDi261ssFn4jNyBS3nXDYQLkC3YMlDmhRnMwDOiuzB3TKOPOJ4Tplw9pUGAo8TfOh%2F8sYoTf00%2BkERGDi4F1%2FBHD9OIYFV4PySbsQezXg%2BwA25tf1%2FxiTmAB6wBAel1w%2BmD6YdbQUxXoVdo0RGIwxz7foTFA8FY%2FSnjABuol21ZJ0OQ47gFBOnAoyCjW5wcMrZTxMxT2DKAZLg%2FO2EH3Mjmn8snMdhd3rGNO83tLXtnJ7u0k4wLBmwBJAs6pyEOTOCWAooJaN7xmZAUp8IzoO1EocgphiK9Fist7s%2BJRHZ7n1B0QdAvhyBUiSDUymLIRmcDkeJpxCvQvD1RlScwE8oYXcINEnp9TjC5LKDT%2B63x1eKkDC2v4GHx4xfz4qt5MXrIXHG7uKlHmF4Fq6ZKxnXtgEkKFWbGpt0%2BwdP7uXjH5lTynj60C7gfmx6O768ayJmJHwEf0B1fNZtzIm6qLuIGtLMR%2F72%2BFm9slauL55MriURLf1zLT34Hua68ME%2BUwhSoqD0Xn2CoQUccLXG8aYCnuvJ8LM5tPfxJnOl1k2nDz11x3jO0ueI4zLaEIxKSbolmJQGASmtnxa%2FSA6n9xto20gNwdIS8JY4jZTN%2B7Ov2cERX1zutVhZfYhJgBjwvM19VMLF%2Bs6w04yuJH0rbLV8djCZ0NktgUmUyJt1GBzu9FqZhKkehIAuIp0T1ykWq9O3rBy8dgJ89eBWji3CicPdAn6fObUFb7t%2B9HWlmPU8sBPUdiVo5R%2BYfs8ORRURUKZKh%2BnyI6OwDAFDkR4lIsreJGpAJSHKD6jys1Nl9W8%2FkXDw0o6VViy90inShnaMLuUzGPhdb0M%2BpP%2BFy1Y9sSQOVT7wcUTCY3ZZMGnyveqJW84Xe%2F44v3BgBqmusX%2FypxoIl4dwrwBzppQ2OY4MySFVuBQXw%2FPWFFRzHClJxxpZ7LzE71xOYjPjRaKCSyOJyo2NRLxeL2lYu7EiNO3q3c72d%2FRaiU60feuJfcuoXllNXp9RuLqV2z7ZI7oUhGB3L8gq9NE6hl3Dgzq2BmFdzjRp%2FsZaPV4yqIqpdKN%2BrjYiSvYlSatMz4%2F%2FQCE2jMsqTJpqWsTqMlbxW5bbEtTnfNnPlkhMUclsj9u7r93dfNrPB7V8bNJw8%2Fhs39yI7BqUccNhjHpCO4ZSuYVSUkdQxp9stmLOTtWY3G4KfWiGOsibax5qXnbXn3lmztVdOWM8uxYNzbG5x1mTe5Mctg5kNDMrbMSiyyeFczaGBWrbxks%2F9cJJEOwhwvvZWNvMlY5RlhCOZX73igl5V8wWgunWDKkWnqxuUYq91oX0vkvZVb8YVkHWK4shqltz3R7Z792md3LLPf7x1b%2F%2FR7OAV1UZKh4mKrstktClJdA1JX9e%2FihsSJn90DBaZqy6kLW92bzBcyggVZQTrBRYQ0FEFBHS%2BAsJTs%2BOykLywheTg%2BgE6Rf2gFEI%2FhQfTiIT5LANuq%2B%2BXdg9lyK852qbrT34Pzwiy40IDR52X7LPXD995xn%2BCjWFnb8p%2FyH5iLgjXTgvsCkWnSwtKp2Lrl0pJTWr2VBZzyD703tyte%2ByOtQE6t3MW0OX2ngvpbN1N7IKiM6Ou%2B0uh7gA0ldQyTvWdojNVOs4OykL6WReUVXrOjMnehZS8FFLy%2BulFIUDX5RfIeV5%2BoenNywv1BxCHxk%2F5ttuOeFubBFTpOTcyjq4mnhUZ44Kbi%2FsgXSP8DI01%2FSaPnlPtiZSFsOffE3H2rEBVQrmgqDYE4XL7b5Wy%2BfafU53xfw%3D%3D%3C%2Fdiagram%3E%3C%2Fmxfile%3E)
+
+*Диаграмма последовательности системы мониторинга посещения "PlaceMen-T"*
+
+## Ссылка на проект
+https://github.com/tema-zima/PlaceMen-T
